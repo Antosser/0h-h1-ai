@@ -1,0 +1,41 @@
+html {
+  background-color: #222222;
+}
+
+.app {
+  height: 100vh;
+  align-items: center;
+  color: white;
+  font-family: "Montserrat";
+  font-size: large;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  // border: 1px solid black;
+  border-radius: 10px;
+  margin: 4px 5px;
+  transition: background-color 0.5s ease;
+}
+
+.row {
+  display: block;
+}
+
+input {
+  height: 50px;
+  width: auto;
+  background-color: #2a2a2a;
+  border-radius: 5px;
+  border: 3px solid #464646;
+  color: white;
+  font-size: x-large;
+  margin: 0 5px;
+
+  &[type="button"] {
+    cursor: pointer;
+  }
+}
